@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx:*)",
+      "Bash(cp -r /c/Users/kysar/Documents/GitHub/oversound-app/. /c/Users/kysar/Documents/GitHub/Oversound/)",
+      "Bash(rm -rf /c/Users/kysar/Documents/GitHub/oversound-app)",
+      "Bash(npm run:*)",
+      "mcp__claude_ai_Supabase__list_organizations",
+      "mcp__claude_ai_Supabase__get_cost",
+      "Bash(gh auth:*)",
+      "Bash(gh repo:*)"
+    ]
+  }
+}
