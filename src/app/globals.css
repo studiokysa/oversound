@@ -145,5 +145,5 @@
   border-radius: 99px;
 }
 .scrollbar-thin::-webkit-scrollbar-thumb:hover {
-  background-color: oklch(0.5 0.15 280);
+  background-color: #F3A46C;
 }

@@ -385,17 +385,17 @@ export default function MusicHub() {
             <div className="max-w-xl mx-auto space-y-3">
               <div className="flex items-center gap-3">
                 <span className="text-zinc-500 text-xs font-mono w-10 text-right">{formatTime(currentTime)}</span>
-                <Slider value={[progress]} onValueChange={handleSeek} max={100} step={0.1} className="flex-1 [&_[role=slider]]:bg-violet-400 [&_[role=slider]]:border-0 [&_.bg-primary]:bg-violet-500" />
+                <Slider value={[progress]} onValueChange={handleSeek} max={100} step={0.1} className="flex-1 [&_[role=slider]]:bg-[#F3A46C] [&_[role=slider]]:border-0 [&_.bg-primary]:bg-[#D97657]" />
                 <span className="text-zinc-500 text-xs font-mono w-10">{formatTime(duration)}</span>
               </div>
               <div className="flex items-center justify-center gap-3">
-                <button onClick={() => setShuffle(s => !s)} className={`p-1.5 rounded-md transition-colors ${shuffle ? "text-violet-400" : "text-zinc-600 hover:text-zinc-400"}`}>
+                <button onClick={() => setShuffle(s => !s)} className={`p-1.5 rounded-md transition-colors ${shuffle ? "text-[#F3A46C]" : "text-zinc-600 hover:text-zinc-400"}`}>
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="16 3 21 3 21 8" /><line x1="4" y1="20" x2="21" y2="3" /><polyline points="21 16 21 21 16 21" /><line x1="15" y1="15" x2="21" y2="21" /></svg>
                 </button>
                 <button onClick={playPrev} className="text-zinc-400 hover:text-white transition-colors p-1.5">
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z" /></svg>
                 </button>
-                <Button onClick={togglePlayPause} size="icon" className="w-12 h-12 rounded-full bg-gradient-to-br from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 border-0 text-white">
+                <Button onClick={togglePlayPause} size="icon" className="w-12 h-12 rounded-full bg-gradient-to-br from-[#D97657] to-[#F3A46C] hover:from-[#D97657]/80 hover:to-[#F3A46C]/80 border-0 text-white">
                   {isPlaying
                     ? <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" /></svg>
                     : <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
@@ -404,7 +404,7 @@ export default function MusicHub() {
                 <button onClick={playNext} className="text-zinc-400 hover:text-white transition-colors p-1.5">
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zm2.5-6 6-4.28V16.28z" /><path d="M16 6h2v12h-2z" /></svg>
                 </button>
-                <button onClick={() => setRepeat(r => !r)} className={`p-1.5 rounded-md transition-colors ${repeat ? "text-violet-400" : "text-zinc-600 hover:text-zinc-400"}`}>
+                <button onClick={() => setRepeat(r => !r)} className={`p-1.5 rounded-md transition-colors ${repeat ? "text-[#F3A46C]" : "text-zinc-600 hover:text-zinc-400"}`}>
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="17 1 21 5 17 9" /><path d="M3 11V9a4 4 0 014-4h14" /><polyline points="7 23 3 19 7 15" /><path d="M21 13v2a4 4 0 01-4 4H3" /></svg>
                 </button>
               </div>
@@ -415,7 +415,7 @@ export default function MusicHub() {
 
       {/* Header */}
       <header className="flex-shrink-0 border-b border-zinc-800 px-6 py-4 flex items-center gap-3">
-        <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-violet-500 to-fuchsia-500 flex items-center justify-center">
+        <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#D97657] to-[#F3A46C] flex items-center justify-center">
           <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
             <path d="M9 18V5l12-2v13" /><circle cx="6" cy="18" r="3" /><circle cx="18" cy="16" r="3" />
           </svg>
@@ -430,9 +430,9 @@ export default function MusicHub() {
         <div className="flex-1 overflow-y-auto flex flex-col">
           <main className="px-6 py-8 max-w-3xl mx-auto w-full flex-1">
             <div className="mb-8 space-y-4">
-              <div className="rounded-xl bg-gradient-to-r from-violet-600/20 to-fuchsia-600/20 border border-violet-500/20 px-5 py-3 flex items-center gap-3">
-                <span className="flex-shrink-0 w-2 h-2 rounded-full bg-violet-400 animate-pulse" />
-                <p className="text-sm text-violet-200 font-medium">
+              <div className="rounded-xl bg-gradient-to-r from-[#D97657]/20 to-[#F3A46C]/20 border border-[#F3A46C]/20 px-5 py-3 flex items-center gap-3">
+                <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#F3A46C] animate-pulse" />
+                <p className="text-sm text-[#F1EEC8] font-medium">
                   Você está ouvindo <span className="text-white font-bold">ClanderClass FM</span>. A rádio que desperta o nexus em você!
                 </p>
               </div>
@@ -452,7 +452,7 @@ export default function MusicHub() {
                     className={`border transition-all duration-200 cursor-pointer ${
                       isAvailable
                         ? isActive
-                          ? "bg-zinc-800 border-violet-500/50 shadow-lg shadow-violet-500/10"
+                          ? "bg-zinc-800 border-[#F3A46C]/50 shadow-lg shadow-[#D97657]/10"
                           : "bg-zinc-900 border-zinc-800 hover:border-zinc-700 hover:bg-zinc-800/70"
                         : "bg-zinc-900/40 border-zinc-800/50 opacity-50 cursor-not-allowed"
                     }`}
@@ -466,13 +466,13 @@ export default function MusicHub() {
                         )}
                         {isActive && isPlaying ? (
                           <span className="absolute inset-0 flex items-center justify-center bg-black/50 gap-0.5">
-                            <span className="w-1 bg-violet-400 rounded-full animate-[bounce_0.8s_ease-in-out_infinite]" style={{ height: "40%", animationDelay: "0ms" }} />
-                            <span className="w-1 bg-violet-400 rounded-full animate-[bounce_0.8s_ease-in-out_infinite]" style={{ height: "70%", animationDelay: "150ms" }} />
-                            <span className="w-1 bg-violet-400 rounded-full animate-[bounce_0.8s_ease-in-out_infinite]" style={{ height: "30%", animationDelay: "300ms" }} />
+                            <span className="w-1 bg-[#F3A46C] rounded-full animate-[bounce_0.8s_ease-in-out_infinite]" style={{ height: "40%", animationDelay: "0ms" }} />
+                            <span className="w-1 bg-[#F3A46C] rounded-full animate-[bounce_0.8s_ease-in-out_infinite]" style={{ height: "70%", animationDelay: "150ms" }} />
+                            <span className="w-1 bg-[#F3A46C] rounded-full animate-[bounce_0.8s_ease-in-out_infinite]" style={{ height: "30%", animationDelay: "300ms" }} />
                           </span>
                         ) : isActive ? (
                           <span className="absolute inset-0 flex items-center justify-center bg-black/50">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-violet-400" fill="currentColor" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-[#F3A46C]" fill="currentColor" viewBox="0 0 24 24">
                               <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
                             </svg>
                           </span>
@@ -483,16 +483,16 @@ export default function MusicHub() {
 
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2 flex-wrap">
-                          <span className={`font-medium text-sm truncate ${isActive ? "text-violet-300" : "text-white"}`}>
+                          <span className={`font-medium text-sm truncate ${isActive ? "text-[#F3A46C]" : "text-white"}`}>
                             {track.title}
                           </span>
                           {track.tags.map((tag) => (
-                            <Badge key={tag} variant="secondary" className={`text-xs px-1.5 py-0 h-5 ${tag === "Em breve" ? "bg-zinc-800 text-zinc-500 border-zinc-700" : "bg-violet-500/20 text-violet-300 border-violet-500/30"}`}>
+                            <Badge key={tag} variant="secondary" className={`text-xs px-1.5 py-0 h-5 ${tag === "Em breve" ? "bg-zinc-800 text-zinc-500 border-zinc-700" : "bg-[#F3A46C]/15 text-[#F3A46C] border-[#F3A46C]/30"}`}>
                               {tag}
                             </Badge>
                           ))}
                           {track.lyrics && (
-                            <Badge variant="secondary" className="text-xs px-1.5 py-0 h-5 bg-fuchsia-500/20 text-fuchsia-300 border-fuchsia-500/30">
+                            <Badge variant="secondary" className="text-xs px-1.5 py-0 h-5 bg-[#F3A46C]/15 text-[#F3A46C] border-[#F3A46C]/30">
                               Letra
                             </Badge>
                           )}
@@ -505,7 +505,7 @@ export default function MusicHub() {
                           {isActive ? formatTime(duration) : trackDurations[track.id] ? formatTime(trackDurations[track.id]) : track.duration}
                         </span>
                         {isAvailable && (
-                          <a href={track.src} download={`${track.title}.mpeg`} onClick={(e) => e.stopPropagation()} className="text-zinc-500 hover:text-violet-400 transition-colors" title="Baixar música">
+                          <a href={track.src} download={`${track.title}.mpeg`} onClick={(e) => e.stopPropagation()} className="text-zinc-500 hover:text-[#F3A46C] transition-colors" title="Baixar música">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                               <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" y1="15" x2="12" y2="3" />
                             </svg>
@@ -522,7 +522,7 @@ export default function MusicHub() {
           <footer className="px-6 py-5 border-t border-zinc-900 text-center">
             <p className="text-zinc-600 text-xs leading-relaxed max-w-xl mx-auto">
               Este hub e suas músicas foram criados por alunos da{" "}
-              <a href="https://www.overlens.com.br" target="_blank" rel="noopener noreferrer" className="text-zinc-500 hover:text-violet-400 transition-colors underline underline-offset-2">Overlens</a>
+              <a href="https://www.overlens.com.br" target="_blank" rel="noopener noreferrer" className="text-zinc-500 hover:text-[#F3A46C] transition-colors underline underline-offset-2">Overlens</a>
               {" "}de forma independente, sem qualquer vínculo com a empresa. A Overlens não possui responsabilidade sobre o conteúdo aqui publicado.
             </p>
           </footer>
@@ -536,7 +536,7 @@ export default function MusicHub() {
           >
             {/* Resize handle */}
             <div
-              className="absolute left-0 top-0 bottom-0 w-1 cursor-col-resize hover:bg-violet-500/40 transition-colors z-10"
+              className="absolute left-0 top-0 bottom-0 w-1 cursor-col-resize hover:bg-[#F3A46C]/40 transition-colors z-10"
               onMouseDown={(e) => {
                 e.preventDefault();
                 isResizing.current = true;
@@ -600,7 +600,7 @@ export default function MusicHub() {
                     <p className="text-zinc-500 text-xs font-semibold uppercase tracking-widest">Letra</p>
                     <button
                       onClick={() => setShowFullLyrics(true)}
-                      className="text-zinc-600 hover:text-violet-400 transition-colors p-1 rounded-md hover:bg-violet-500/10"
+                      className="text-zinc-600 hover:text-[#F3A46C] transition-colors p-1 rounded-md hover:bg-[#F3A46C]/10"
                       title="Expandir letra"
                     >
                       <svg xmlns="http://www.w3.org/2000/svg" className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -640,7 +640,7 @@ export default function MusicHub() {
           <div className="max-w-3xl mx-auto space-y-3">
             <div className="flex items-center gap-3">
               <span className="text-zinc-500 text-xs font-mono w-10 text-right">{formatTime(currentTime)}</span>
-              <Slider value={[progress]} onValueChange={handleSeek} max={100} step={0.1} className="flex-1 [&_[role=slider]]:bg-violet-400 [&_[role=slider]]:border-0 [&_.bg-primary]:bg-violet-500" />
+              <Slider value={[progress]} onValueChange={handleSeek} max={100} step={0.1} className="flex-1 [&_[role=slider]]:bg-[#F3A46C] [&_[role=slider]]:border-0 [&_.bg-primary]:bg-[#D97657]" />
               <span className="text-zinc-500 text-xs font-mono w-10">{formatTime(duration)}</span>
             </div>
 
@@ -657,7 +657,7 @@ export default function MusicHub() {
               </div>
 
               <div className="flex items-center gap-2 mx-4">
-                <button onClick={() => setShuffle(s => !s)} className={`p-1.5 rounded-md transition-colors ${shuffle ? "text-violet-400" : "text-zinc-600 hover:text-zinc-400"}`} title="Aleatório">
+                <button onClick={() => setShuffle(s => !s)} className={`p-1.5 rounded-md transition-colors ${shuffle ? "text-[#F3A46C]" : "text-zinc-600 hover:text-zinc-400"}`} title="Aleatório">
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <polyline points="16 3 21 3 21 8" /><line x1="4" y1="20" x2="21" y2="3" />
                     <polyline points="21 16 21 21 16 21" /><line x1="15" y1="15" x2="21" y2="21" />
@@ -666,7 +666,7 @@ export default function MusicHub() {
                 <button onClick={playPrev} className="text-zinc-400 hover:text-white transition-colors p-1.5" title="Anterior">
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z" /></svg>
                 </button>
-                <Button onClick={togglePlayPause} size="icon" className="w-10 h-10 rounded-full bg-gradient-to-br from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 border-0 text-white">
+                <Button onClick={togglePlayPause} size="icon" className="w-10 h-10 rounded-full bg-gradient-to-br from-[#D97657] to-[#F3A46C] hover:from-[#D97657]/80 hover:to-[#F3A46C]/80 border-0 text-white">
                   {isPlaying ? (
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" /></svg>
                   ) : (
@@ -676,7 +676,7 @@ export default function MusicHub() {
                 <button onClick={playNext} className="text-zinc-400 hover:text-white transition-colors p-1.5" title="Próxima">
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zm2.5-6 6-4.28V16.28z" /><path d="M16 6h2v12h-2z" /></svg>
                 </button>
-                <button onClick={() => setRepeat(r => !r)} className={`p-1.5 rounded-md transition-colors ${repeat ? "text-violet-400" : "text-zinc-600 hover:text-zinc-400"}`} title="Repetir">
+                <button onClick={() => setRepeat(r => !r)} className={`p-1.5 rounded-md transition-colors ${repeat ? "text-[#F3A46C]" : "text-zinc-600 hover:text-zinc-400"}`} title="Repetir">
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <polyline points="17 1 21 5 17 9" /><path d="M3 11V9a4 4 0 014-4h14" />
                     <polyline points="7 23 3 19 7 15" /><path d="M21 13v2a4 4 0 01-4 4H3" />
@@ -698,10 +698,10 @@ export default function MusicHub() {
 
       {/* Mobile Mini Player */}
       {currentTrack && (
-        <div className="lg:hidden flex-shrink-0 border-t border-zinc-800 bg-zinc-900/95 backdrop-blur-md">
+        <div className="lg:hidden flex-shrink-0 border-t border-zinc-800 bg-zinc-900/95 backdrop-blur-md" style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
           {/* Progress bar strip */}
           <div className="h-0.5 bg-zinc-800">
-            <div className="h-full bg-violet-500 transition-all" style={{ width: `${progress}%` }} />
+            <div className="h-full bg-[#F3A46C] transition-all" style={{ width: `${progress}%` }} />
           </div>
           <div
             className="flex items-center gap-3 px-4 py-3 cursor-pointer"
@@ -719,7 +719,7 @@ export default function MusicHub() {
             </div>
             <button
               onClick={(e) => { e.stopPropagation(); togglePlayPause(); }}
-              className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-violet-600 to-fuchsia-600 flex items-center justify-center text-white"
+              className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-[#D97657] to-[#F3A46C] flex items-center justify-center text-white"
             >
               {isPlaying ? (
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" /></svg>
@@ -771,7 +771,7 @@ export default function MusicHub() {
               {currentTrack.lyrics && (
                 <button
                   onClick={() => { setShowMobilePlayer(false); setShowFullLyrics(true); }}
-                  className="flex-shrink-0 mt-1 text-xs text-violet-400 border border-violet-500/40 rounded-full px-3 py-1 font-semibold uppercase tracking-wide"
+                  className="flex-shrink-0 mt-1 text-xs text-[#F3A46C] border border-[#F3A46C]/40 rounded-full px-3 py-1 font-semibold uppercase tracking-wide"
                 >
                   Letra
                 </button>
@@ -780,7 +780,7 @@ export default function MusicHub() {
           </div>
 
           {/* Controls */}
-          <div className="px-6 pb-10 space-y-5">
+          <div className="px-6 space-y-5" style={{ paddingBottom: "max(2.5rem, env(safe-area-inset-bottom))" }}>
             {/* Progress */}
             <div className="space-y-1">
               <Slider value={[progress]} onValueChange={handleSeek} max={100} step={0.1} className="[&_[role=slider]]:bg-white [&_[role=slider]]:border-0 [&_.bg-primary]:bg-white" />
@@ -792,7 +792,7 @@ export default function MusicHub() {
 
             {/* Playback buttons */}
             <div className="flex items-center justify-between">
-              <button onClick={() => setShuffle(s => !s)} className={`p-2 ${shuffle ? "text-violet-400" : "text-zinc-600"}`}>
+              <button onClick={() => setShuffle(s => !s)} className={`p-2 ${shuffle ? "text-[#F3A46C]" : "text-zinc-600"}`}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="16 3 21 3 21 8" /><line x1="4" y1="20" x2="21" y2="3" />
                   <polyline points="21 16 21 21 16 21" /><line x1="15" y1="15" x2="21" y2="21" />
@@ -811,7 +811,7 @@ export default function MusicHub() {
               <button onClick={playNext} className="text-zinc-300 p-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zm2.5-6 6-4.28V16.28z" /><path d="M16 6h2v12h-2z" /></svg>
               </button>
-              <button onClick={() => setRepeat(r => !r)} className={`p-2 ${repeat ? "text-violet-400" : "text-zinc-600"}`}>
+              <button onClick={() => setRepeat(r => !r)} className={`p-2 ${repeat ? "text-[#F3A46C]" : "text-zinc-600"}`}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="17 1 21 5 17 9" /><path d="M3 11V9a4 4 0 014-4h14" />
                   <polyline points="7 23 3 19 7 15" /><path d="M21 13v2a4 4 0 01-4 4H3" />
