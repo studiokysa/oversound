@@ -345,7 +345,7 @@ export default function MusicHub() {
   }
 
   return (
-    <div className="h-screen flex flex-col overflow-hidden bg-zinc-950 text-white">
+    <div className="flex flex-col overflow-hidden bg-zinc-950 text-white" style={{ height: "100dvh" }}>
       {currentTrack?.src && <audio ref={audioRef} src={currentTrack.src} preload="metadata" />}
 
       {/* Fullscreen lyrics overlay */}
