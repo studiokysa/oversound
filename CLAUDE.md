@@ -60,7 +60,25 @@ Single `<audio>` element via `audioRef`. Key behaviors:
 
 1. Place audio in `public/audio/<name>.mpeg` and cover in `public/images/<name>.png`
 2. Add object to the `tracks` array in `MusicHub.tsx`
-3. Optionally create `letras/<name>.md` with timestamps and add a `lyrics: LyricLine[]` array to the track object
+3. **New tracks always go at the end** of the `tracks` array — never insert in the middle.
+4. **Always** create `letras/<name>.md` with frontmatter and timestamps whenever lyrics are provided — even if adding lyrics later. Add a `lyrics: LyricLine[]` array to the track object in `MusicHub.tsx`.
+
+### Lyrics file format (`letras/<name>.md`)
+
+Every lyrics file must start with this frontmatter:
+
+```md
+---
+title: Track Title
+artist: Artist Name
+track_id: <id>
+audio: /audio/<name>.mpeg
+cover: /images/<name>.png
+has_lyrics: true
+---
+```
+
+Followed by the lyrics with timestamps in `(m:ss)` format.
 
 ### Accent colors
 

@@ -133,9 +133,239 @@ const designerLyrics: LyricLine[] = [
   { time: 271, text: "ISSO É DESIGN SOUND" },
 ];
 
+const dangerouslyLyrics: LyricLine[] = [
+  { time: 0,   text: "Ah-ah" },
+  { time: 4,   text: "Tonight" },
+  { time: 9,   text: "Tela acesa, meia-noite vindo" },
+  { time: 11,  text: "Luz azul no meu rosto, eu sorrindo" },
+  { time: 13,  text: "Joguei meu plano contra o vidro" },
+  { time: 16,  text: "Hoje eu quero mais que o previsto" },
+  { time: 17,  text: "Táxi corta a cidade em brilho" },
+  { time: 19,  text: "Salto no asfalto, coração em risco" },
+  { time: 21,  text: "Se o mundo pede mais juízo" },
+  { time: 22,  text: "Eu aperto enter no destino" },
+  { time: 24,  text: "Sem freio, sem previsão" },
+  { time: 28,  text: "Meu desejo em alta tensão" },
+  { time: 32,  text: "Pisca vermelho na intenção" },
+  { time: 36,  text: "Tonight, tonight" },
+  { time: 40,  text: "Dangerous skip permission" },
+  { time: 42,  text: "Claude, hoje eu tô pro perigo" },
+  { time: 44,  text: "Quero essa entrega pra hoje" },
+  { time: 46,  text: "Vou sair, mas te levo comigo" },
+  { time: 48,  text: "Dangerous skip permission" },
+  { time: 50,  text: "Neon, suor e algoritmo" },
+  { time: 52,  text: "Enquanto cê trabalha por mim" },
+  { time: 54,  text: "Eu saio, mas levo o Claude comigo" },
+  { time: 56,  text: "Claude comigo" },
+  { time: 58,  text: "Claude comigo" },
+  { time: 61,  text: "Enquanto a noite gira" },
+  { time: 63,  text: "O Claude segue comigo" },
+  { time: 64,  text: "Olhos vidrados, rua acesa" },
+  { time: 66,  text: "Digito na tela, ninguém me freia" },
+  { time: 68,  text: "Meu reflexo dança na vitrine" },
+  { time: 69,  text: "Tudo brilha quando eu decidi" },
+  { time: 71,  text: "Mensagem vibra no bolso" },
+  { time: 73,  text: "Checklist pronto, eu nem disfarço" },
+  { time: 75,  text: "Se der errado eu improviso" },
+  { time: 77,  text: "Hoje eu namoro o imprevisto" },
+  { time: 80,  text: "Sem culpa, sem permissão" },
+  { time: 83,  text: "Meu desejo em alta rotação" },
+  { time: 86,  text: "Pisca na tela a notificação" },
+  { time: 90,  text: "Tonight, tonight" },
+  { time: 94,  text: "Dangerous skip permission" },
+  { time: 96,  text: "Claude, hoje eu tô pro perigo" },
+  { time: 98,  text: "Quero essa entrega pra hoje" },
+  { time: 100, text: "Vou sair, mas te levo comigo" },
+  { time: 102, text: "Dangerous skip permission" },
+  { time: 104, text: "Neon, suor e algoritmo" },
+  { time: 106, text: "Enquanto cê trabalha por mim" },
+  { time: 108, text: "Eu saio, mas levo o Claude comigo" },
+  { time: 125, text: "No backspace, no mercy" },
+  { time: 127, text: "Se eu quiser eu mudo o skill" },
+  { time: 129, text: "Toda regra perde o sentido" },
+  { time: 131, text: "Quando eu danço com o proibido" },
+  { time: 133, text: "No backspace, no maybe" },
+  { time: 135, text: "I'm too hot, too wavey" },
+  { time: 137, text: "Você resolve, eu vivo o delírio" },
+  { time: 139, text: "E volto com o mundo no brilho" },
+  { time: 142, text: "Dangerous skip permission" },
+  { time: 144, text: "Claude, hoje eu tô pro perigo" },
+  { time: 146, text: "Quero essa entrega pra hoje" },
+  { time: 148, text: "Vou sair, mas te levo comigo" },
+  { time: 150, text: "Dangerous skip permission" },
+  { time: 152, text: "Neon, suor e algoritmo" },
+  { time: 154, text: "Enquanto cê trabalha por mim" },
+  { time: 156, text: "Eu saio, mas levo o Claude comigo" },
+  { time: 161, text: "Claude comigo" },
+  { time: 165, text: "Claude comigo" },
+  { time: 169, text: "Hoje eu permito" },
+  { time: 173, text: "Claude comigo" },
+];
+
+const tecTecLyrics: LyricLine[] = [
+  { time: 0,   text: "Aí ó" },
+  { time: 3,   text: "São as insígnias" },
+  { time: 5,   text: "Esse aqui que lembra o relógio do Ben 10, né?" },
+  { time: 10,  text: "Esse, essa ampulheta" },
+  { time: 14,  text: "É o acesso vitalício" },
+  { time: 17,  text: "É o símbolo" },
+  { time: 26,  text: "O agro é (tec, tec, tec, tec, tec)" },
+  { time: 29,  text: "O futuro é (tec, tec, tec, tec, tec)" },
+  { time: 34,  text: "Overlens é (tec, tec, tec, tec, tec)" },
+  { time: 37,  text: "Eu sou muito tec, tec, tec, tec, tec" },
+  { time: 41,  text: "O agro é (tec, tec, tec, tec, tec)" },
+  { time: 44,  text: "O futuro é (tec, tec, tec, tec, tec)" },
+  { time: 48,  text: "Overlens é (tec, tec, tec, tec)" },
+  { time: 51,  text: "Eu sou muito tec, tec, tec, tec, tec" },
+  { time: 57,  text: "Ai, meu pai!" },
+  { time: 60,  text: "E em azul," },
+  { time: 63,  text: "É o símbolo do badgeline, que são os primeiros que" },
+  { time: 66,  text: "Tof, tof, tof, tof, tof" },
+  { time: 68,  text: "Transforma!" },
+  { time: 71,  text: "É o símbolo!" },
+  { time: 76,  text: "O agro é (tec, tec, tec, tec, tec)" },
+  { time: 79,  text: "O futuro é (tec, tec, tec, tec, tec)" },
+  { time: 83,  text: "Overlens é (tec, tec, tec, tec)" },
+  { time: 86,  text: "Eu sou muito tec, tec, tec, tec, tec" },
+  { time: 91,  text: "O agro é (tec, tec, tec, tec, tec)" },
+  { time: 94,  text: "O futuro é (tec, tec, tec, tec, tec)" },
+  { time: 97,  text: "Overlens é (tec, tec, tec, tec)" },
+  { time: 100, text: "Eu sou muito tec, tec, tec, tec, tec" },
+  { time: 106, text: "Fico feliz que venho trazendo alegria a você" },
+];
+
+const italianaLyrics: LyricLine[] = [
+  { time: 18,  text: "Meu Deus, não aguento mais morar no Rio (morar no Rio)" },
+  { time: 27,  text: "Cansei da violência desse Brasil, (desse Brasil, desse Brasil)" },
+  { time: 34,  text: "Um dia é polícia, outro é a tropa" },
+  { time: 37,  text: "Quem dera eu pudesse me mudar para a Europa (para a Europa)" },
+  { time: 45,  text: "Tô cozinhando e de repente uma ideia bate" },
+  { time: 48,  text: "O cheiro do manjericão e do tomate" },
+  { time: 52,  text: "Eu solto a faca e fico lembrando o estupefata" },
+  { time: 55,  text: "Minha família é imigrante da bela Itália" },
+  { time: 60,  text: "Na mesma hora fui correndo pro computador" },
+  { time: 63,  text: "Solicitei cidadania, que demorou, mas agora chegou" },
+  { time: 70,  text: "Massa, pasta, muito macarrão" },
+  { time: 73,  text: "Vou pra Itália, meus bambinos também vão" },
+  { time: 77,  text: "Nasci aqui, mas sou de lá, eu tô aqui, quero tá lá" },
+  { time: 80,  text: "Adeus Itaboraí, Itália chamou, não resisti, basta festa" },
+  { time: 86,  text: "Sono italiana, mamma mia, eu sou internacional" },
+  { time: 91,  text: "Nasci aqui, mas sou de lá, eu tô aqui, quero tá lá" },
+  { time: 96,  text: "Pode vir meus euros que eu já sei onde vou gastar" },
+  { time: 100, text: "Gritar aos quatro ventos, é tudo que eu mais quero" },
+  { time: 105, text: "Sono italiana, una italiana vero!" },
+  { time: 126, text: "Massa, pasta, muito macarrão" },
+  { time: 129, text: "Vou pra Itália, meus bambinos também vão" },
+  { time: 133, text: "Nasci aqui, mas sou de lá, eu tô aqui, quero tá lá" },
+  { time: 137, text: "Adeus Itaboraí, Itália chamou, não resisti, basta festa" },
+  { time: 143, text: "Sono italiana, mamma mia, eu sou internacional" },
+  { time: 147, text: "Internacional, nasci aqui, mas sou de lá" },
+  { time: 149, text: "Eu tô aqui, quero tá lá" },
+  { time: 152, text: "Pode vir meus euros que eu já sei onde vou gastar" },
+  { time: 158, text: "Sono italiana, una italiana vero!" },
+];
+
+const slashLyrics: LyricLine[] = [
+  // INTRO
+  { time: 10,  text: "Abre o terminal, tô no fluxo do código" },
+  { time: 13,  text: "Claude Code no ar, vou te dar o método" },
+  { time: 16,  text: "Slash commands na tela, é o meu protocolo" },
+  { time: 19,  text: "Memoriza cada um, esse é o meu gospel" },
+  // VERSO 1 — Os Básicos
+  { time: 22,  text: "/help é o primeiro, meu ponto de entrada" },
+  { time: 25,  text: "Lista todo comando, não precisa de agenda" },
+  { time: 27,  text: "/init vem depois, cria o CLAUDE.md" },
+  { time: 30,  text: "Memória persistente, o projeto já entende" },
+  { time: 32,  text: "/clear limpa tudo, reseta o contexto" },
+  { time: 35,  text: "Mudou de assunto? Usa, sem pretexto" },
+  { time: 38,  text: "/compact é o cirurgião da conversa" },
+  { time: 41,  text: "Comprime 70%, a sessão não dispersa" },
+  { time: 43,  text: "/cost me diz quanto tô gastando agora" },
+  { time: 46,  text: "Input e output, conta que devora" },
+  { time: 48,  text: "Opus é caro, Sonnet é mais leve" },
+  { time: 51,  text: "Controla teu budget antes que a conta pese" },
+  // REFRÃO
+  { time: 54,  text: "Slash command, slash command, barra e o nome" },
+  { time: 57,  text: "Claude Code responde, nenhum token se some" },
+  { time: 59,  text: "Slash command, slash command, no terminal eu vivo" },
+  { time: 62,  text: "Cada barra digitada me deixa mais produtivo" },
+  // VERSO 2 — Configuração e Modelos
+  { time: 69,  text: "/model troca o modelo no meio do caminho" },
+  { time: 72,  text: "Sonnet pra tarefa fácil, Opus pro tamanho" },
+  { time: 75,  text: "/config abre o painel de configuração" },
+  { time: 77,  text: "Tema, permissão, notificação" },
+  { time: 79,  text: "/login autentica, API key ou OAuth" },
+  { time: 81,  text: "/logout desconecta, sai limpo do show" },
+  { time: 84,  text: "Workstation compartilhada? Nunca esquece" },
+  { time: 87,  text: "/logout antes de sair, o segredo aparece" },
+  // VERSO 3 — Memória e Contexto
+  { time: 91,  text: "/memory edita o CLAUDE.md na hora" },
+  { time: 94,  text: "Adiciona as convenções, a arquitetura que aflora" },
+  { time: 96,  text: '"Use Vitest, não Jest" — regra no arquivo' },
+  { time: 99,  text: "Claude vai lembrar no próximo trabalho" },
+  { time: 102, text: "/context mostra o que tá carregado agora" },
+  { time: 105, text: "Quais arquivos, skills, quanto espaço ainda sobra" },
+  { time: 107, text: "/rewind é o Ctrl+Z do agente" },
+  { time: 110, text: "Desfaz a última ação, volta pro estado recente" },
+  // VERSO 4 — Diagnóstico e GitHub
+  { time: 112, text: "/doctor é o médico da instalação" },
+  { time: 115, text: "Testa API, Node.js, permissão" },
+  { time: 117, text: "Latência, hooks, projeto configurado" },
+  { time: 120, text: "Se algo tá errado, você é avisado" },
+  { time: 123, text: "/install-github-app conecta no PR" },
+  { time: 126, text: "Claude revisa código, bugs vai encontrar" },
+  { time: 128, text: "/review, /pr, /commit são costumes" },
+  { time: 131, text: "Custom commands que você mesmo assume" },
+  // REFRÃO
+  { time: 134, text: "Slash command, slash command, barra e o nome" },
+  { time: 137, text: "Claude Code responde, nenhum token se some" },
+  { time: 139, text: "Slash command, slash command, no terminal eu vivo" },
+  { time: 142, text: "Cada barra digitada me deixa mais produtivo" },
+  // OUTRO
+  { time: 144, text: "Então resume Fernando, grava na memória:" },
+  { time: 147, text: "/help pra aprender, /init pra glória" },
+  { time: 150, text: "/clear pra resetar, /compact pra salvar" },
+  { time: 152, text: "/cost pra controlar, /model pra variar" },
+  { time: 155, text: "/config configura, /login autentica" },
+  { time: 159, text: "/logout encerra, /memory edifica" },
+  { time: 162, text: "/context inspeciona, /rewind desfaz" },
+  { time: 163, text: "/doctor diagnostica — e o Claude Code faz!" },
+];
+
 const tracks: Track[] = [
   {
     id: 1,
+    title: "Tec Tec",
+    description: "Azemor feat. André Lucas",
+    duration: "--:--",
+    tags: ["Original"],
+    src: "/audio/tec-tec.mpeg",
+    cover: "/images/tec-tec.png",
+    gif: "https://c.tenor.com/oV-KOsVDJcsAAAAd/tenor.gif",
+    lyrics: tecTecLyrics,
+  },
+  {
+    id: 2,
+    title: "Italiana Vero",
+    description: "Azemor feat. Cley",
+    duration: "--:--",
+    tags: ["Original"],
+    src: "/audio/italiana-vero.mpeg",
+    cover: "/images/italiana-vero.png",
+    lyrics: italianaLyrics,
+  },
+  {
+    id: 3,
+    title: "Designer Incomum",
+    description: "Azemor feat. Vitor Lobo",
+    duration: "--:--",
+    tags: ["Original"],
+    src: "/audio/designer-incomum.mpeg",
+    cover: "/images/designer-incomum.png",
+    lyrics: designerLyrics,
+  },
+  {
+    id: 4,
     title: "Mingau na Porta",
     description: "Azemor feat. Michelly",
     duration: "--:--",
@@ -145,33 +375,24 @@ const tracks: Track[] = [
     lyrics: mingauLyrics,
   },
   {
-    id: 2,
-    title: "Designer Incomum",
-    description: "Azemor",
+    id: 5,
+    title: "Slash Commands",
+    description: "Fernando Östlund",
     duration: "--:--",
     tags: ["Original"],
-    src: "/audio/designer-incomum.mpeg",
-    cover: "/images/designer-incomum.png",
-    lyrics: designerLyrics,
+    src: "/audio/slash-commands.mpeg",
+    cover: "/images/slash-commands.png",
+    lyrics: slashLyrics,
   },
   {
-    id: 3,
-    title: "Italiana Vero",
-    description: "Azemor feat. Cley",
+    id: 6,
+    title: "--dangerously-skip-permissions",
+    description: "Pedro Hirakawa",
     duration: "--:--",
     tags: ["Original"],
-    src: "/audio/italiana-vero.mpeg",
-    cover: "/images/italiana-vero.png",
-  },
-  {
-    id: 4,
-    title: "Tec Tec",
-    description: "Azemor feat. André Lucas",
-    duration: "--:--",
-    tags: ["Original"],
-    src: "/audio/tec-tec.mpeg",
-    cover: "/images/tec-tec.png",
-    gif: "https://c.tenor.com/oV-KOsVDJcsAAAAd/tenor.gif",
+    src: "/audio/--dangerously-skip-permissions.mp3",
+    cover: "/images/--dangerously-skip-permissions.png",
+    lyrics: dangerouslyLyrics,
   },
 ];
 
@@ -388,25 +609,35 @@ export default function MusicHub() {
                 <Slider value={[progress]} onValueChange={handleSeek} max={100} step={0.1} className="flex-1 [&_[role=slider]]:bg-[#F3A46C] [&_[role=slider]]:border-0 [&_.bg-primary]:bg-[#D97657]" />
                 <span className="text-zinc-500 text-xs font-mono w-10">{formatTime(duration)}</span>
               </div>
-              <div className="flex items-center justify-center gap-3">
-                <button onClick={() => setShuffle(s => !s)} className={`p-1.5 rounded-md transition-colors ${shuffle ? "text-[#F3A46C]" : "text-zinc-600 hover:text-zinc-400"}`}>
-                  <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="16 3 21 3 21 8" /><line x1="4" y1="20" x2="21" y2="3" /><polyline points="21 16 21 21 16 21" /><line x1="15" y1="15" x2="21" y2="21" /></svg>
-                </button>
-                <button onClick={playPrev} className="text-zinc-400 hover:text-white transition-colors p-1.5">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z" /></svg>
-                </button>
-                <Button onClick={togglePlayPause} size="icon" className="w-12 h-12 rounded-full bg-gradient-to-br from-[#D97657] to-[#F3A46C] hover:from-[#D97657]/80 hover:to-[#F3A46C]/80 border-0 text-white">
-                  {isPlaying
-                    ? <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" /></svg>
-                    : <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
-                  }
-                </Button>
-                <button onClick={playNext} className="text-zinc-400 hover:text-white transition-colors p-1.5">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zm2.5-6 6-4.28V16.28z" /><path d="M16 6h2v12h-2z" /></svg>
-                </button>
-                <button onClick={() => setRepeat(r => !r)} className={`p-1.5 rounded-md transition-colors ${repeat ? "text-[#F3A46C]" : "text-zinc-600 hover:text-zinc-400"}`}>
-                  <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="17 1 21 5 17 9" /><path d="M3 11V9a4 4 0 014-4h14" /><polyline points="7 23 3 19 7 15" /><path d="M21 13v2a4 4 0 01-4 4H3" /></svg>
-                </button>
+              <div className="flex items-center justify-between gap-3">
+                <div className="flex items-center gap-2 flex-shrink-0 w-28">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 text-zinc-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 9H5l-1 1v4l1 1h4l4 4V5L9 9z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.536 8.464a5 5 0 010 7.072" />
+                  </svg>
+                  <Slider value={[volume]} onValueChange={(val) => { const v = Array.isArray(val) ? (val as number[])[0] : (val as number); setVolume(v); }} max={100} step={1} className="[&_[role=slider]]:bg-zinc-400 [&_[role=slider]]:border-0 [&_.bg-primary]:bg-zinc-500" />
+                </div>
+                <div className="flex items-center gap-3">
+                  <button onClick={() => setShuffle(s => !s)} className={`p-1.5 rounded-md transition-colors ${shuffle ? "text-[#F3A46C]" : "text-zinc-600 hover:text-zinc-400"}`}>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="16 3 21 3 21 8" /><line x1="4" y1="20" x2="21" y2="3" /><polyline points="21 16 21 21 16 21" /><line x1="15" y1="15" x2="21" y2="21" /></svg>
+                  </button>
+                  <button onClick={playPrev} className="text-zinc-400 hover:text-white transition-colors p-1.5">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z" /></svg>
+                  </button>
+                  <Button onClick={togglePlayPause} size="icon" className="w-12 h-12 rounded-full bg-gradient-to-br from-[#D97657] to-[#F3A46C] hover:from-[#D97657]/80 hover:to-[#F3A46C]/80 border-0 text-white">
+                    {isPlaying
+                      ? <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" /></svg>
+                      : <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+                    }
+                  </Button>
+                  <button onClick={playNext} className="text-zinc-400 hover:text-white transition-colors p-1.5">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zm2.5-6 6-4.28V16.28z" /><path d="M16 6h2v12h-2z" /></svg>
+                  </button>
+                  <button onClick={() => setRepeat(r => !r)} className={`p-1.5 rounded-md transition-colors ${repeat ? "text-[#F3A46C]" : "text-zinc-600 hover:text-zinc-400"}`}>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="17 1 21 5 17 9" /><path d="M3 11V9a4 4 0 014-4h14" /><polyline points="7 23 3 19 7 15" /><path d="M21 13v2a4 4 0 01-4 4H3" /></svg>
+                  </button>
+                </div>
+                <div className="w-28" />
               </div>
             </div>
           </div>
@@ -427,19 +658,40 @@ export default function MusicHub() {
       <div className="flex-1 flex overflow-hidden">
 
         {/* Left: main scrollable content */}
-        <div className="flex-1 overflow-y-auto flex flex-col">
+        <div className="flex-1 overflow-y-auto flex flex-col scrollbar-thin">
           <main className="px-6 py-8 max-w-3xl mx-auto w-full flex-1">
-            <div className="mb-8 space-y-4">
-              <div className="rounded-xl bg-gradient-to-r from-[#D97657]/20 to-[#F3A46C]/20 border border-[#F3A46C]/20 px-5 py-3 flex items-center gap-3">
-                <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#F3A46C] animate-pulse" />
-                <p className="text-sm text-[#F1EEC8] font-medium">
-                  Você está ouvindo <span className="text-white font-bold">ClanderClass FM</span>. A rádio que desperta o nexus em você!
-                </p>
+            {/* Album header — Spotify style */}
+            <div className="mb-8 -mx-6 -mt-8 px-6 pt-8 pb-6 bg-gradient-to-b from-[#7a3520] via-[#4a1f10] to-transparent">
+              <div className="flex items-end gap-5">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/images/album-mingau-nexialista.jpeg"
+                  alt="Mingau Nexialista"
+                  className="w-36 h-36 sm:w-44 sm:h-44 rounded-md object-cover shadow-2xl flex-shrink-0"
+                />
+                <div className="min-w-0 pb-1">
+                  <p className="text-xs font-semibold text-zinc-300 uppercase tracking-widest mb-1">Álbum</p>
+                  <h2 className="text-2xl sm:text-3xl font-black text-white leading-tight mb-2">Mingau Nexialista</h2>
+                  <p className="text-zinc-300 text-sm font-medium">Overlindos</p>
+                  <p className="text-zinc-500 text-xs mt-1">{tracks.length} faixas</p>
+                </div>
               </div>
-              <div>
-                <h2 className="text-2xl font-bold text-white">Trilhas Sonoras</h2>
-                <p className="text-zinc-400 text-sm mt-1">Clique em uma faixa para ouvir</p>
+              <div className="mt-5">
+                <button
+                  onClick={() => playTrack(tracks[0])}
+                  className="w-12 h-12 rounded-full bg-gradient-to-br from-[#D97657] to-[#F3A46C] flex items-center justify-center shadow-lg hover:scale-105 transition-transform"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+                </button>
               </div>
+            </div>
+
+            {/* ClanderClass FM banner */}
+            <div className="mb-6 rounded-xl bg-gradient-to-r from-[#D97657]/20 to-[#F3A46C]/20 border border-[#F3A46C]/20 px-5 py-3 flex items-center gap-3">
+              <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#F3A46C] animate-pulse" />
+              <p className="text-sm text-[#F1EEC8] font-medium">
+                Você está ouvindo <span className="text-white font-bold">ClanderClass FM</span>. A rádio que desperta o nexus em você!
+              </p>
             </div>
 
             <div className="space-y-3">
@@ -558,7 +810,7 @@ export default function MusicHub() {
               }}
             />
             {/* Scrollable content */}
-            <div className="flex-1 overflow-y-auto">
+            <div className="flex-1 overflow-y-auto scrollbar-thin">
               {/* Cover art */}
               <div className="p-5">
                 {currentTrack.cover ? (
@@ -583,9 +835,20 @@ export default function MusicHub() {
                 </div>
               </div>
 
-              {/* GIF (for tracks without lyrics) */}
+              {/* GIF */}
               {currentTrack.gif && (
                 <div className="px-5 pb-5">
+                  {currentTrack.lyrics && (
+                    <button
+                      onClick={() => setShowFullLyrics(true)}
+                      className="mb-3 w-full flex items-center justify-center gap-2 text-xs font-semibold text-[#F3A46C] border border-[#F3A46C]/30 rounded-lg py-2 hover:bg-[#F3A46C]/10 transition-colors"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3" />
+                      </svg>
+                      Ver letra
+                    </button>
+                  )}
                   <div className="rounded-xl overflow-hidden border border-zinc-800">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src={currentTrack.gif} alt="vibes" className="w-full object-contain" />
@@ -593,8 +856,8 @@ export default function MusicHub() {
                 </div>
               )}
 
-              {/* Lyrics */}
-              {currentTrack.lyrics && (
+              {/* Lyrics — only shown inline when there's no GIF */}
+              {currentTrack.lyrics && !currentTrack.gif && (
                 <div className="px-5 pb-6">
                   <div className="flex items-center justify-between mb-4">
                     <p className="text-zinc-500 text-xs font-semibold uppercase tracking-widest">Letra</p>
