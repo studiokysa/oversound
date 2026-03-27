@@ -4,6 +4,62 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 @AGENTS.md
 
+## First-time setup (cloning this repo)
+
+If this is the first time running the project on a new machine, follow these steps:
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Create the environment file
+
+Create a file called `.env.local` in the project root with the site password:
+
+```
+NEXT_PUBLIC_SITE_PASSWORD=your_password_here
+```
+
+**This file is not in the repo** (it's gitignored). Without it, the password gate on the home page will never open. Ask the repo owner for the password, or set your own.
+
+### 3. Test locally
+
+```bash
+npm run dev
+```
+
+Open http://localhost:3000 and confirm you can log in with the password you set.
+
+### 4. Deploy to Vercel (first time)
+
+1. Create a free account at https://vercel.com if you don't have one.
+2. Log in via CLI:
+   ```bash
+   npx vercel login
+   ```
+3. Link this project to your Vercel account:
+   ```bash
+   npx vercel link
+   ```
+   Answer the prompts (create a new project, keep default settings).
+4. Add the environment variable in Vercel:
+   - Go to your project on vercel.com → Settings → Environment Variables
+   - Add `NEXT_PUBLIC_SITE_PASSWORD` with the same value as your `.env.local`
+5. Deploy:
+   ```bash
+   npx vercel deploy --prod
+   ```
+
+From this point on, use `npx vercel deploy --prod` for all future deploys.
+
+### After completing setup
+
+Once all steps above are done and the deploy is working, **delete the entire "First-time setup" section from this CLAUDE.md file**. It is a one-time guide and has no value after the project is running.
+
+---
+
 ## Commands
 
 ```bash

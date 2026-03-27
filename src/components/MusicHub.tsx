@@ -113,7 +113,7 @@ const designerLyrics: LyricLine[] = [
   { time: 118, text: "(Overleeeeeens)" },
   { time: 122, text: "This is the Future" },
   { time: 124, text: "(Overleeeeeens)" },
-  { time: 127, text: "?" },
+  { time: 127, text: "Solo Nexialistaaa" },
   { time: 162, text: "Minha alma expande" },
   { time: 163, text: "Tô mais criativo" },
   { time: 165, text: "Tô mais veloz" },
