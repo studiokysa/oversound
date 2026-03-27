@@ -13,7 +13,7 @@ export default function Home() {
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (password === "Overlindos") {
+    if (password === process.env.NEXT_PUBLIC_SITE_PASSWORD) {
       setUnlocked(true);
       setError(false);
     } else {

@@ -31,7 +31,7 @@ Hosted on Vercel (free tier, org: Kysa Studio). Deploy manually via CLI — ther
 
 The entire app is two pages:
 
-1. **`src/app/page.tsx`** — password gate (password: `Overlindos`). On success renders `<MusicHub />`.
+1. **`src/app/page.tsx`** — password gate (password via `NEXT_PUBLIC_SITE_PASSWORD` env var). On success renders `<MusicHub />`.
 2. **`src/components/MusicHub.tsx`** — the whole player UI (~850 lines). Single component with all state, no context or external state library.
 
 ### MusicHub layout structure
