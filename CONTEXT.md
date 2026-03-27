@@ -16,7 +16,7 @@ Oversound é um hub de trilhas sonoras criado pelos alunos da **Overlens** (esco
 
 ## Acesso
 
-O site tem proteção por senha na entrada. Senha atual: `Overlindos`
+O site tem proteção por senha na entrada. Senha atual: definida via variável de ambiente `NEXT_PUBLIC_SITE_PASSWORD` no Vercel.
 
 ## Stack
 
@@ -45,7 +45,7 @@ letras/               # Letras das músicas em markdown com timestamps
 
 ## Funcionalidades implementadas
 
-- Página de senha (senha: `Overlindos`)
+- Página de senha (senha via env var)
 - Lista de faixas com capa, título, artista e duração
 - Player de áudio com: play/pause, anterior, próxima, shuffle, repeat, volume
 - Download de faixas
