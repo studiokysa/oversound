@@ -690,7 +690,7 @@ export default function MusicHub() {
 
       {/* Header */}
       <header className="flex-shrink-0 border-b border-zinc-800 px-6 py-4 flex items-center">
-        <img src="/images/logo oversound.svg" alt="Oversound" className="h-8 w-auto" />
+        <img src="/images/logo oversound horizontal.svg" alt="Oversound" className="h-8 w-auto" />
       </header>
 
       {/* Body */}
