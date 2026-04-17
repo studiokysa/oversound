@@ -1,6 +1,6 @@
 ---
 title: Clã Destino - Versão Piseiro
-artist: ClanderClass
+artist: Azemor
 track_id: 8
 audio: /audio/Clã Destino - Versão Piseiro.mpeg
 cover: /images/cla-destino-versao-rock.png

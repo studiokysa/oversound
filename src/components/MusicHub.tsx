@@ -421,7 +421,7 @@ const tracks: Track[] = [
   {
     id: 7,
     title: "Clã Destino - Versão Rock",
-    description: "ClanderClass",
+    description: "Azemor",
     duration: "--:--",
     tags: ["Original"],
     src: "/audio/Clã Destino - Versão Rock.mpeg",
@@ -431,7 +431,7 @@ const tracks: Track[] = [
   {
     id: 8,
     title: "Clã Destino - Versão Piseiro",
-    description: "ClanderClass",
+    description: "Azemor",
     duration: "--:--",
     tags: ["Original"],
     src: "/audio/Clã Destino - Versão Piseiro.mpeg",

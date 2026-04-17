@@ -1,6 +1,6 @@
 ---
 title: Clã Destino - Versão Rock
-artist: ClanderClass
+artist: Azemor
 track_id: 7
 audio: /audio/Clã Destino - Versão Rock.mpeg
 cover: /images/cla-destino-versao-rock.png
