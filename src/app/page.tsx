@@ -27,21 +27,21 @@ export default function Home() {
   }
 
   const bgNotes = [
-    { char: '♪', left: '3%',  fontSize: 14, duration: 14, delay: -7,  opacity: 0.10 },
-    { char: '♫', left: '9%',  fontSize: 20, duration: 11, delay: -3,  opacity: 0.07 },
-    { char: '♬', left: '16%', fontSize: 13, duration: 13, delay:  0,  opacity: 0.09 },
-    { char: '♩', left: '24%', fontSize: 18, duration: 10, delay: -5,  opacity: 0.08 },
-    { char: '♪', left: '31%', fontSize: 15, duration: 16, delay: -2,  opacity: 0.06 },
-    { char: '♫', left: '40%', fontSize: 11, duration: 12, delay: -8,  opacity: 0.10 },
-    { char: '♬', left: '48%', fontSize: 22, duration:  9, delay: -4,  opacity: 0.07 },
-    { char: '♩', left: '56%', fontSize: 14, duration: 11, delay: -1,  opacity: 0.09 },
-    { char: '♪', left: '63%', fontSize: 17, duration: 15, delay: -6,  opacity: 0.08 },
-    { char: '♫', left: '71%', fontSize: 12, duration: 10, delay: -3,  opacity: 0.10 },
-    { char: '♬', left: '79%', fontSize: 19, duration: 13, delay: -9,  opacity: 0.07 },
-    { char: '♩', left: '87%', fontSize: 14, duration: 12, delay: -2,  opacity: 0.09 },
-    { char: '♪', left: '94%', fontSize: 16, duration: 11, delay: -5,  opacity: 0.08 },
-    { char: '♫', left: '7%',  fontSize: 12, duration: 17, delay: -11, opacity: 0.06 },
-    { char: '♬', left: '52%', fontSize: 15, duration: 14, delay: -7,  opacity: 0.08 },
+    { char: '♪', left: '3%',  fontSize: 28, duration: 14, delay: -7,  opacity: 0.12 },
+    { char: '♫', left: '9%',  fontSize: 40, duration: 11, delay: -3,  opacity: 0.09 },
+    { char: '♬', left: '16%', fontSize: 26, duration: 13, delay:  0,  opacity: 0.11 },
+    { char: '♩', left: '24%', fontSize: 36, duration: 10, delay: -5,  opacity: 0.10 },
+    { char: '♪', left: '31%', fontSize: 30, duration: 16, delay: -2,  opacity: 0.08 },
+    { char: '♫', left: '40%', fontSize: 22, duration: 12, delay: -8,  opacity: 0.12 },
+    { char: '♬', left: '48%', fontSize: 44, duration:  9, delay: -4,  opacity: 0.09 },
+    { char: '♩', left: '56%', fontSize: 28, duration: 11, delay: -1,  opacity: 0.11 },
+    { char: '♪', left: '63%', fontSize: 34, duration: 15, delay: -6,  opacity: 0.10 },
+    { char: '♫', left: '71%', fontSize: 24, duration: 10, delay: -3,  opacity: 0.12 },
+    { char: '♬', left: '79%', fontSize: 38, duration: 13, delay: -9,  opacity: 0.09 },
+    { char: '♩', left: '87%', fontSize: 28, duration: 12, delay: -2,  opacity: 0.11 },
+    { char: '♪', left: '94%', fontSize: 32, duration: 11, delay: -5,  opacity: 0.10 },
+    { char: '♫', left: '7%',  fontSize: 24, duration: 17, delay: -11, opacity: 0.08 },
+    { char: '♬', left: '52%', fontSize: 30, duration: 14, delay: -7,  opacity: 0.10 },
   ];
 
   return (
