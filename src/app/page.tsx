@@ -46,7 +46,7 @@ export default function Home() {
       <Card className="w-full max-w-sm mx-4 bg-zinc-900/80 border-zinc-800 backdrop-blur-sm relative z-10">
         <CardHeader className="pb-2 pt-8 text-center space-y-4">
           <div className="flex justify-center">
-            <img src="/images/logo oversound.svg" alt="Oversound" className="h-12 w-auto" />
+            <img src="/images/logo oversound.svg" alt="Oversound" className="h-24 w-auto" />
           </div>
           <div>
             <p className="text-zinc-400 text-sm mt-1">Digite a senha para acessar o hub</p>
