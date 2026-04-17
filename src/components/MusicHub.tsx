@@ -689,13 +689,8 @@ export default function MusicHub() {
       )}
 
       {/* Header */}
-      <header className="flex-shrink-0 border-b border-zinc-800 px-6 py-4 flex items-center gap-3">
-        <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#D97657] to-[#F3A46C] flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M9 18V5l12-2v13" /><circle cx="6" cy="18" r="3" /><circle cx="18" cy="16" r="3" />
-          </svg>
-        </div>
-        <span className="font-bold text-lg tracking-tight">Oversound</span>
+      <header className="flex-shrink-0 border-b border-zinc-800 px-6 py-4 flex items-center">
+        <img src="/images/logo oversound.svg" alt="Oversound" className="h-8 w-auto" />
       </header>
 
       {/* Body */}
