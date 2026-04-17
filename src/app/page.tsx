@@ -46,25 +46,9 @@ export default function Home() {
       <Card className="w-full max-w-sm mx-4 bg-zinc-900/80 border-zinc-800 backdrop-blur-sm relative z-10">
         <CardHeader className="pb-2 pt-8 text-center space-y-4">
           <div className="flex justify-center">
-            <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#D97657] to-[#F3A46C] flex items-center justify-center shadow-lg shadow-[#D97657]/25">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-8 h-8 text-white"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M9 18V5l12-2v13" />
-                <circle cx="6" cy="18" r="3" />
-                <circle cx="18" cy="16" r="3" />
-              </svg>
-            </div>
+            <img src="/images/logo oversound.svg" alt="Oversound" className="h-12 w-auto" />
           </div>
           <div>
-            <h1 className="text-2xl font-bold text-white tracking-tight">Oversound</h1>
             <p className="text-zinc-400 text-sm mt-1">Digite a senha para acessar o hub</p>
           </div>
         </CardHeader>
