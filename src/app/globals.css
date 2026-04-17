@@ -129,6 +129,19 @@
   }
 }
 
+/* Login background — floating music notes */
+@keyframes float-note {
+  0%   { transform: translateY(0) translateX(0px) rotate(-6deg); opacity: 0; }
+  8%   { opacity: var(--note-opacity, 0.1); }
+  50%  { transform: translateY(-50vh) translateX(12px) rotate(5deg); }
+  92%  { opacity: var(--note-opacity, 0.1); }
+  100% { transform: translateY(-100vh) translateX(-6px) rotate(-6deg); opacity: 0; }
+}
+
+.music-note-float {
+  animation: float-note var(--note-duration, 12s) var(--note-delay, 0s) infinite linear;
+}
+
 /* Scrollbar discreta */
 .scrollbar-thin {
   scrollbar-width: thin;

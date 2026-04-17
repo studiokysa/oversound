@@ -26,11 +26,45 @@ export default function Home() {
     return <MusicHub />;
   }
 
+  const bgNotes = [
+    { char: '♪', left: '3%',  fontSize: 14, duration: 14, delay: -7,  opacity: 0.10 },
+    { char: '♫', left: '9%',  fontSize: 20, duration: 11, delay: -3,  opacity: 0.07 },
+    { char: '♬', left: '16%', fontSize: 13, duration: 13, delay:  0,  opacity: 0.09 },
+    { char: '♩', left: '24%', fontSize: 18, duration: 10, delay: -5,  opacity: 0.08 },
+    { char: '♪', left: '31%', fontSize: 15, duration: 16, delay: -2,  opacity: 0.06 },
+    { char: '♫', left: '40%', fontSize: 11, duration: 12, delay: -8,  opacity: 0.10 },
+    { char: '♬', left: '48%', fontSize: 22, duration:  9, delay: -4,  opacity: 0.07 },
+    { char: '♩', left: '56%', fontSize: 14, duration: 11, delay: -1,  opacity: 0.09 },
+    { char: '♪', left: '63%', fontSize: 17, duration: 15, delay: -6,  opacity: 0.08 },
+    { char: '♫', left: '71%', fontSize: 12, duration: 10, delay: -3,  opacity: 0.10 },
+    { char: '♬', left: '79%', fontSize: 19, duration: 13, delay: -9,  opacity: 0.07 },
+    { char: '♩', left: '87%', fontSize: 14, duration: 12, delay: -2,  opacity: 0.09 },
+    { char: '♪', left: '94%', fontSize: 16, duration: 11, delay: -5,  opacity: 0.08 },
+    { char: '♫', left: '7%',  fontSize: 12, duration: 17, delay: -11, opacity: 0.06 },
+    { char: '♬', left: '52%', fontSize: 15, duration: 14, delay: -7,  opacity: 0.08 },
+  ];
+
   return (
     <main className="min-h-screen flex items-center justify-center bg-zinc-950 relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-40 -left-40 w-96 h-96 bg-[#D97657]/20 rounded-full blur-3xl" />
         <div className="absolute -bottom-40 -right-40 w-96 h-96 bg-[#F3A46C]/20 rounded-full blur-3xl" />
+        {bgNotes.map((note, i) => (
+          <span
+            key={i}
+            className="music-note-float absolute bottom-0 select-none pointer-events-none"
+            style={{
+              left: note.left,
+              fontSize: note.fontSize,
+              color: '#F3A46C',
+              '--note-duration': `${note.duration}s`,
+              '--note-delay': `${note.delay}s`,
+              '--note-opacity': note.opacity,
+            } as React.CSSProperties}
+          >
+            {note.char}
+          </span>
+        ))}
       </div>
 
       <div className="absolute bottom-5 left-0 right-0 px-6 text-center z-10">
