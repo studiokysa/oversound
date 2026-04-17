@@ -332,6 +332,30 @@ const slashLyrics: LyricLine[] = [
   { time: 163, text: "/doctor diagnostica — e o Claude Code faz!" },
 ];
 
+const claDestinoPiseiroLyrics: LyricLine[] = [
+  { time: 5,  text: "Segredos serão revelados" },
+  { time: 24, text: "Ei macho! Como pode você sozinho," },
+  { time: 29, text: "Pra descobrir tudo do mundo?" },
+  { time: 31, text: "Tantas ideias, tantos caminhos" },
+  { time: 33, text: "Mudança veloz, em questão de segundo" },
+  { time: 37, text: "Abriram as portas, pra eu passar" },
+  { time: 39, text: "Mas eu nem sei, como é que faz isso" },
+  { time: 42, text: "Prometeram um jeito de nos ajudar" },
+  { time: 44, text: "Mas a cada semana fica mais difícil" },
+  { time: 49, text: "Só tem um jeito de eu não me perder..." },
+  { time: 54, text: "Você conta comigo... e eu conto com você!" },
+  { time: 61, text: "Eu fico mais forte unido ao clã" },
+  { time: 65, text: "A gente transfere o que nos mantém vivos" },
+  { time: 67, text: "O conhecimento deixa a mente sã" },
+  { time: 69, text: "Mas só faz sentido se tiver amigos" },
+  { time: 73, text: "Cola com a gente, somos aprendizes" },
+  { time: 76, text: "Puros alquimistas do mundo moderno" },
+  { time: 78, text: "Hoje um ensina suas diretrizes" },
+  { time: 81, text: "Hoje informações entram em muitos cadernos" },
+  { time: 85, text: "Sejam bem-vindos, colegas bad-ass" },
+  { time: 90, text: "Já vai começar a nossa ClanderClass!" },
+];
+
 const claDestinoRockLyrics: LyricLine[] = [
   { time: 30,  text: "Segredos serão revelados" },
   { time: 50,  text: "Ei! Como pode você sozinho," },
@@ -436,7 +460,7 @@ const tracks: Track[] = [
     tags: ["Original"],
     src: "/audio/Clã Destino - Versão Piseiro.mpeg",
     cover: "/images/cla-destino-versao-rock.png",
-    lyrics: claDestinoRockLyrics,
+    lyrics: claDestinoPiseiroLyrics,
   },
 ];
 
