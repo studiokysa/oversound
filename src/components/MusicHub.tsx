@@ -332,6 +332,31 @@ const slashLyrics: LyricLine[] = [
   { time: 163, text: "/doctor diagnostica — e o Claude Code faz!" },
 ];
 
+const claDestinoRockLyrics: LyricLine[] = [
+  { time: 30,  text: "Seus medos serão revelados" },
+  { time: 50,  text: "Ei, como pode ir você sozinho" },
+  { time: 53,  text: "Pra descobrir tudo do mundo" },
+  { time: 56,  text: "Tantas ideias, tantos caminhos" },
+  { time: 60,  text: "Mudança veloz em questão de segundo" },
+  { time: 63,  text: "Abriram as portas pra eu passar" },
+  { time: 66,  text: "Mas eu nem sei como é que faz isso" },
+  { time: 70,  text: "Prometeram um jeito de nos ajudar" },
+  { time: 73,  text: "Mas a cada semana fica mais difícil" },
+  { time: 77,  text: "Só tem um jeito de eu não me perder" },
+  { time: 83,  text: "Você conta comigo e eu conto com você" },
+  { time: 90,  text: "Eu fico mais forte unido ao clã" },
+  { time: 94,  text: "A gente transfere o que nos mantém vivos" },
+  { time: 97,  text: "O conhecimento deixa a mente sã" },
+  { time: 101, text: "Mas só faz sentido se tiver amigos" },
+  { time: 104, text: "Cola com a gente, somos aprendizes" },
+  { time: 107, text: "Puros alquimistas do mundo moderno" },
+  { time: 111, text: "Hoje o ensino é suas diretrizes" },
+  { time: 114, text: "Hoje informações entram em muitos cadernos" },
+  { time: 118, text: "Sejam bem-vindos colegas bad ass" },
+  { time: 121, text: "Já vai começar a nossa" },
+  { time: 124, text: "ClanderClass!" },
+];
+
 const tracks: Track[] = [
   {
     id: 1,
@@ -393,6 +418,26 @@ const tracks: Track[] = [
     src: "/audio/--dangerously-skip-permissions.mp3",
     cover: "/images/--dangerously-skip-permissions.png",
     lyrics: dangerouslyLyrics,
+  },
+  {
+    id: 7,
+    title: "Clã Destino - Versão Rock",
+    description: "ClanderClass",
+    duration: "--:--",
+    tags: ["Original"],
+    src: "/audio/Clã Destino - Versão Rock.mpeg",
+    cover: "/images/cla-destino-versao-rock.png",
+    lyrics: claDestinoRockLyrics,
+  },
+  {
+    id: 8,
+    title: "Clã Destino - Versão Piseiro",
+    description: "ClanderClass",
+    duration: "--:--",
+    tags: ["Original"],
+    src: "/audio/Clã Destino - Versão Piseiro.mpeg",
+    cover: "/images/cla-destino-versao-rock.png",
+    lyrics: claDestinoRockLyrics,
   },
 ];
 
